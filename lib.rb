@@ -61,7 +61,7 @@ class Library
       if @borrowed.empty? 
        "No books on loan"
       else  
-        borrowed_output_string = @borrowed.map do |key, book| book.loaned? end
+        borrowed_output_string = @borrowed.map do |key, book| book.title end
       end
     end    
 

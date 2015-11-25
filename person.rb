@@ -6,13 +6,10 @@ class Person
     @books = {}
   end  
   
-
-
   def pretty_string
     "'#{@name}' has #{books.size} books borrowed at the moment."
   end 
    
-
   def borrow(book)
     @books[book.title] = book
   end  

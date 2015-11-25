@@ -17,18 +17,6 @@ library.add_book(Book.new(title: "Histories", genre: "History"))
 library.add_book(Book.new(title: "To Kill a Mockingbird", genre: "Fiction"))
 library.add_book(Book.new(title: "A Brief History of Time", genre: "Non-Fiction"))
 
-
-
-
-
-
-
-
-
-
-
-
-
 puts "all books: #{library.list_books}"
 #todo: list books
 #todo: create person
@@ -81,8 +69,6 @@ puts "all books: #{library.list_books}"
 
 
 #todo: list borrowed books
-
-
 puts "The books that are currently on loan are: #{library.borrowed}"
 
 

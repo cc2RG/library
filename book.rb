@@ -12,8 +12,8 @@ class Book
     "'#{@title}' is a #{@genre} book"
   end  
 
-  def loaned?
-    "'#{@title}'" 
+  def title
+    @title 
   end  
 
 
